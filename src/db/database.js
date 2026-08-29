@@ -1,6 +1,8 @@
 import { Database } from "bun:sqlite";
 
-const db = new Database("src/db/sih.db") ;
+const dbPath = process.env.DB_PATH || "src/db/sih.db";
+
+const db = new Database(dbPath)
 
 const initDB = () => {
   db.run(`
