@@ -1,7 +1,9 @@
 import express from "express";
 import cors from 'cors';
 import {saveData} from "./src/tools/tools";
-import {initDB , db} from "./src/db/database";
+import {initDB} from "./src/db/database";
+import {tool} from "./agent/tool";
+
 const app = express();
 
 app.use(cors());
@@ -36,8 +38,10 @@ app.post("/form", (req, res) => {
             data.skills,
             data.interests,
             data.mobility,
-            data.employment_preference
+            data.employment_preference,
+            data.phone
         );
+        console.log(data);
         return res.status(201).json({
             success: true,
             message: "Beneficiary data saved."
@@ -49,6 +53,10 @@ app.post("/form", (req, res) => {
             message: "Database error."
         });
     };
+
+});
+
+app.get("/job", (req,res) => {
 
 });
 

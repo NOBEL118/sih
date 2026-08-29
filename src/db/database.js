@@ -13,6 +13,7 @@ const initDB = () => {
       interests TEXT,
       mobility TEXT,
       employment_preference TEXT,
+      phone NUMBER,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     )
   `);
