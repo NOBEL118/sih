@@ -1,8 +1,7 @@
 import { Database } from "bun:sqlite";
 
-const dbPath = process.env.DB_PATH || "src/db/sih.db";
-
-const db = new Database(dbPath)
+const dbPath = process.env.NODE_ENV === "production" ? "/data/sih.db" : "src/db/sih.db";
+const db = new Database(dbPath);
 
 const initDB = () => {
   db.run(`
@@ -20,4 +19,5 @@ const initDB = () => {
     )
   `);
 }
-export  {db,initDB};
+
+export { db, initDB };
