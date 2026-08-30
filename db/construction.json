@@ -1,0 +1,138 @@
+[
+  {
+    "id": "CSDCI_CON_Q0101",
+    "job_role": "Helper Mason",
+    "hindi_name": "मिस्त्री का सहायक",
+    "sector": "Construction",
+    "qp_code": "CON/Q0101",
+    "source": "CSDCI",
+    "nsqf_level": 2,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "helper mason",
+      "मिस्त्री का सहायक",
+      "मिस्त्री हेल्पर",
+      "राजमिस्त्री का हेल्पर",
+      "मजदूरी"
+    ]
+  },
+  {
+    "id": "CSDCI_CON_Q0102",
+    "job_role": "Assistant Mason",
+    "hindi_name": "सहायक मिस्त्री",
+    "sector": "Construction",
+    "qp_code": "CON/Q0102",
+    "source": "CSDCI",
+    "nsqf_level": 3,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "assistant mason",
+      "सहायक मिस्त्री",
+      "मिस्त्री",
+      "राजमिस्त्री",
+      "ईंट गारा का काम"
+    ]
+  },
+  {
+    "id": "CSDCI_CON_Q0113",
+    "job_role": "Brick Mason",
+    "hindi_name": "ईंट मिस्त्री",
+    "sector": "Construction",
+    "qp_code": "CON/Q0113",
+    "source": "CSDCI",
+    "nsqf_level": 4,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "brick mason",
+      "ईंट मिस्त्री",
+      "राजमिस्त्री",
+      "ईंट लगाने वाला",
+      "ईंट गारा वाला"
+    ]
+  },
+  {
+    "id": "CSDCI_CON_Q0203",
+    "job_role": "Bar Bender and Steel Fixer",
+    "hindi_name": "सरिया बांधने वाला",
+    "sector": "Construction",
+    "qp_code": "CON/Q0203",
+    "source": "CSDCI",
+    "nsqf_level": 4,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "bar bender",
+      "steel fixer",
+      "सरिया वाला",
+      "सरिया बांधने वाला",
+      "लोहे की सरिया का काम"
+    ]
+  },
+  {
+    "id": "CSDCI_CON_Q3001",
+    "job_role": "Shuttering Carpenter",
+    "hindi_name": "शटरिंग बढ़ई",
+    "sector": "Construction",
+    "qp_code": "CON/Q3001",
+    "source": "CSDCI",
+    "nsqf_level": 4,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "shuttering carpenter",
+      "शटरिंग वाला",
+      "शटरिंग बढ़ई",
+      "फॉर्मवर्क वाला",
+      "तख्ता शटरिंग"
+    ]
+  },
+  {
+    "id": "CSDCI_CON_Q0602",
+    "job_role": "Assistant Electrician",
+    "hindi_name": "सहायक इलेक्ट्रीशियन",
+    "sector": "Construction",
+    "qp_code": "CON/Q0602",
+    "source": "CSDCI",
+    "nsqf_level": 3,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "assistant electrician",
+      "इलेक्ट्रीशियन हेल्पर",
+      "बिजली वाला",
+      "वायरिंग वाला",
+      "बिजली का काम"
+    ]
+  },
+  {
+    "id": "CSDCI_CON_Q0503",
+    "job_role": "Construction Painter and Decorator",
+    "hindi_name": "निर्माण पेंटर",
+    "sector": "Construction",
+    "qp_code": "CON/Q0503",
+    "source": "CSDCI",
+    "nsqf_level": 3.5,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "construction painter",
+      "पेंटर",
+      "रंग वाला",
+      "रंगाई पुताई",
+      "दीवार रंगने वाला"
+    ]
+  },
+  {
+    "id": "CSDCI_CON_Q0314",
+    "job_role": "Assistant Scaffolder-System",
+    "hindi_name": "स्कैफोल्डिंग सहायक",
+    "sector": "Construction",
+    "qp_code": "CON/Q0314",
+    "source": "CSDCI",
+    "nsqf_level": 3,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "assistant scaffolder",
+      "scaffolding helper",
+      "स्कैफोल्डिंग वाला",
+      "पाड़ लगाने वाला",
+      "बांस पाड़ वाला"
+    ]
+  }
+]

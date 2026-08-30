@@ -1,0 +1,98 @@
+[
+  {
+    "id": "DGT_ELECTRICIAN",
+    "job_role": "Electrician",
+    "hindi_name": "इलेक्ट्रीशियन",
+    "sector": "Electrical Work",
+    "source": "DGT CTS/ITI",
+    "nsqf_level": 4,
+    "min_qualification": "Passed 10th class examination with Science and Mathematics or with vocational subject in same sector or its equivalent.",
+    "keywords": [
+      "electrician",
+      "इलेक्ट्रीशियन",
+      "बिजली वाला",
+      "वायरिंग वाला",
+      "बिजली का काम"
+    ]
+  },
+  {
+    "id": "DGT_WIREMAN",
+    "job_role": "Wireman",
+    "hindi_name": "वायरमैन",
+    "sector": "Electrical Work",
+    "source": "DGT CTS/ITI",
+    "nsqf_level": 3,
+    "min_qualification": "Passed 8th class examination.",
+    "keywords": [
+      "wireman",
+      "वायरमैन",
+      "तार वाला",
+      "वायरिंग वाला",
+      "बिजली की तार लगाने वाला"
+    ]
+  },
+  {
+    "id": "DGT_SOLAR_TECH_ELEC",
+    "job_role": "Solar Technician (Electrical)",
+    "hindi_name": "सोलर इलेक्ट्रीशियन",
+    "sector": "Electrical Work",
+    "source": "DGT CTS/ITI",
+    "nsqf_level": 3,
+    "min_qualification": "Passed 10th class examination.",
+    "keywords": [
+      "solar technician",
+      "solar electrician",
+      "सोलर वाला",
+      "सोलर पैनल लगाने वाला",
+      "सोलर का काम"
+    ]
+  },
+  {
+    "id": "DGT_LIFT_ESCALATOR",
+    "job_role": "Lift and Escalator Mechanic",
+    "hindi_name": "लिफ्ट और एस्केलेटर मैकेनिक",
+    "sector": "Electrical Work",
+    "source": "DGT CTS/ITI",
+    "nsqf_level": 4,
+    "min_qualification": "Passed 10th class examination.",
+    "keywords": [
+      "lift mechanic",
+      "escalator mechanic",
+      "लिफ्ट वाला",
+      "लिफ्ट मैकेनिक",
+      "एस्केलेटर वाला"
+    ]
+  },
+  {
+    "id": "DGT_ELECTRONICS_MECHANIC",
+    "job_role": "Electronics Mechanic",
+    "hindi_name": "इलेक्ट्रॉनिक्स मैकेनिक",
+    "sector": "Electrical Work",
+    "source": "DGT CTS/ITI",
+    "nsqf_level": 4,
+    "min_qualification": "Passed 10th Class examination with Science and Mathematics or with vocational subject in same sector or its equivalent.",
+    "keywords": [
+      "electronics mechanic",
+      "इलेक्ट्रॉनिक्स मैकेनिक",
+      "इलेक्ट्रॉनिक वाला",
+      "टीवी रेडियो रिपेयर",
+      "इलेक्ट्रॉनिक सामान ठीक करने वाला"
+    ]
+  },
+  {
+    "id": "DGT_TECH_ELECTRONICS_REPAIR",
+    "job_role": "Technician Electronics System Design and Repair",
+    "hindi_name": "इलेक्ट्रॉनिक्स सिस्टम रिपेयर टेक्नीशियन",
+    "sector": "Electrical Work",
+    "source": "DGT CTS/ITI",
+    "nsqf_level": 4,
+    "min_qualification": "10th Class Passed; lateral entry is available for relevant NTC holders as stated by DGT.",
+    "keywords": [
+      "electronics repair technician",
+      "इलेक्ट्रॉनिक रिपेयर वाला",
+      "सिस्टम रिपेयर",
+      "इलेक्ट्रॉनिक सामान ठीक करने वाला",
+      "टेक्नीशियन"
+    ]
+  }
+]

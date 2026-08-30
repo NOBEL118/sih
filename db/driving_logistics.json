@@ -1,0 +1,140 @@
+[
+  {
+    "id": "LSC_LSC_Q1301",
+    "job_role": "Cargo Vehicle Driver (Non-hazardous Goods)",
+    "hindi_name": "कार्गो वाहन चालक",
+    "sector": "Driving/Logistics",
+    "qp_code": "LSC/Q1301",
+    "source": "Logistics Sector Skill Council (LSC)",
+    "nsqf_level": 4,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "cargo vehicle driver",
+      "truck driver",
+      "ट्रक ड्राइवर",
+      "ट्रक वाला",
+      "माल गाड़ी चलाने वाला",
+      "ड्राइवर"
+    ]
+  },
+  {
+    "id": "LSC_LSC_Q1302",
+    "job_role": "Reefer Vehicle Operator cum Driver",
+    "hindi_name": "रीफर वाहन चालक",
+    "sector": "Driving/Logistics",
+    "qp_code": "LSC/Q1302",
+    "source": "Logistics Sector Skill Council (LSC)",
+    "nsqf_level": 4,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "reefer driver",
+      "cold truck driver",
+      "कोल्ड ट्रक ड्राइवर",
+      "ठंडी गाड़ी वाला",
+      "फ्रिज वाली गाड़ी का ड्राइवर"
+    ]
+  },
+  {
+    "id": "LSC_LSC_Q1001",
+    "job_role": "Land Transportation Associate",
+    "hindi_name": "भूमि परिवहन सहायक",
+    "sector": "Driving/Logistics",
+    "qp_code": "LSC/Q1001",
+    "source": "Logistics Sector Skill Council (LSC)",
+    "nsqf_level": 3,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "land transportation associate",
+      "transport helper",
+      "ट्रांसपोर्ट वाला",
+      "गाड़ी भेजने वाला",
+      "डिस्पैच वाला"
+    ]
+  },
+  {
+    "id": "LSC_LSC_Q1002",
+    "job_role": "Land Transportation Executive",
+    "hindi_name": "भूमि परिवहन कार्यकारी",
+    "sector": "Driving/Logistics",
+    "qp_code": "LSC/Q1002",
+    "source": "Logistics Sector Skill Council (LSC)",
+    "nsqf_level": 4,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "transport executive",
+      "logistics executive",
+      "ट्रांसपोर्ट ऑफिस वाला",
+      "डिस्पैच वाला",
+      "लॉजिस्टिक्स वाला"
+    ]
+  },
+  {
+    "id": "LSC_LSC_Q1003",
+    "job_role": "Land Transportation Supervisor",
+    "hindi_name": "भूमि परिवहन सुपरवाइजर",
+    "sector": "Driving/Logistics",
+    "qp_code": "LSC/Q1003",
+    "source": "Logistics Sector Skill Council (LSC)",
+    "nsqf_level": 5,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "transport supervisor",
+      "गाड़ी सुपरवाइजर",
+      "ड्राइवरों का सुपरवाइजर",
+      "ट्रांसपोर्ट सुपरवाइजर",
+      "फ्लीट सुपरवाइजर"
+    ]
+  },
+  {
+    "id": "LSC_LSC_Q2603",
+    "job_role": "E-commerce Delivery Associate",
+    "hindi_name": "ई-कॉमर्स डिलीवरी सहायक",
+    "sector": "Driving/Logistics",
+    "qp_code": "LSC/Q2603",
+    "source": "Logistics Sector Skill Council (LSC)",
+    "nsqf_level": 3,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "delivery associate",
+      "delivery boy",
+      "डिलीवरी वाला",
+      "पार्सल देने वाला",
+      "कूरियर वाला",
+      "सामान पहुंचाने वाला"
+    ]
+  },
+  {
+    "id": "LSC_LSC_Q0101",
+    "job_role": "Warehouse Associate",
+    "hindi_name": "गोदाम सहायक",
+    "sector": "Driving/Logistics",
+    "qp_code": "LSC/Q0101",
+    "source": "Logistics Sector Skill Council (LSC)",
+    "nsqf_level": 3,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "warehouse associate",
+      "गोदाम वाला",
+      "वेयरहाउस हेल्पर",
+      "सामान रखने वाला",
+      "गोदाम में काम"
+    ]
+  },
+  {
+    "id": "LSC_LSC_Q3201",
+    "job_role": "Supply Chain Associate",
+    "hindi_name": "सप्लाई चेन सहायक",
+    "sector": "Driving/Logistics",
+    "qp_code": "LSC/Q3201",
+    "source": "Logistics Sector Skill Council (LSC)",
+    "nsqf_level": 3,
+    "min_qualification": "QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF.",
+    "keywords": [
+      "supply chain associate",
+      "सप्लाई चेन वाला",
+      "सामान भेजने वाला",
+      "माल सप्लाई का काम",
+      "डिलीवरी सप्लाई वाला"
+    ]
+  }
+]
