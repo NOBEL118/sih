@@ -15,7 +15,7 @@ import {details} from "../tools/details";
 const model = new ChatGroq({
     model: "openai/gpt-oss-120b",
     temperature: 0,
-    maxTokens: 512,
+    maxTokens: 1024,
     maxRetries: 2,
     apiKey: process.env.GROQ_API_KEY,
 }) ;
@@ -86,6 +86,10 @@ async  function agent (data) {
                   You are a job matching assistant.
 
                   STEP 1 — FIND THE BEST JOB:
+                  When matching a job, prioritize the job's keywords.
+                  The user's wording does not need to exactly match the job_role.
+                  Match synonyms, Hindi words, Hinglish, and natural descriptions of the work
+                  against the job_role and keywords.
                   Use the following job table to match the user's qualification, skills, experience,
                   or stated work with the most suitable job.
 
