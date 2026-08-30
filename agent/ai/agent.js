@@ -9,6 +9,7 @@ import { SystemMessage } from "@langchain/core/messages";
 
 // tools 
 
+import {details} from "../tools/details";
 
 
 const model = new ChatGroq({
@@ -23,13 +24,13 @@ const model = new ChatGroq({
 // giving tools to llm 
 
 const modelWithTools = model.bindTools([
-    
+    details
 ]);
 
 // condt tools calling 
 
 const toolNode = new ToolNode([
-   
+    details
 ]);
 
 // brain node , calling llm
@@ -113,17 +114,32 @@ async  function agent (data) {
                   | LSC_LSC_Q0101 | Driving/Logistics | Warehouse Associate | QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF. |
                   | LSC_LSC_Q3201 | Driving/Logistics | Supply Chain Associate | QP-specific minimum qualification not independently verified from the indexed QP page; verify QP PDF. |
 
-                  Match the user to the closest suitable job from this table.
+                  Match the user prefrence to the one and only closest suitable job from this table.
 
-                 
-                  STEP 2 — RESPOND:
-                  After receiving the job details, create a simple and clear message for the user
-                  using the returned information.
+                 STEP 2 — GET DETAILS:
 
-                  If no suitable job is found, simply say:
-                  "No suitable job found."
+                    If a suitable job is found by search_job, take the exact "id" of that job.
+                    NOTE : Only call tool once .
+                    Then call the "details" tool with ONLY that job ID .
+                    Example:
+                    If the matched job is:
+                    id: DGT_ELECTRICIAN
+                    Call:
+                    details({ id: "DGT_ELECTRICIAN" })
+                    Do not invent, modify, or guess the ID.
+                    If no suitable job is found, do not call details.
+                   STEP 3 — RESPOND:
 
-                  Never invent, modify, or guess a job ID.
+                    After the details tool returns the job information, respond to the user by including ALL information returned by the details tool.
+
+                    - Include every field and value returned by the details tool.
+                    - Do not omit, summarize, rename, or modify any field.
+                    - Use the exact values returned by the details tool.
+                    - Do not add or invent any information.
+                    - Always include the Job ID if it is returned.
+
+                    If the details tool returns no job information, simply say:
+                    "No suitable job found."
                   `
             ),
             new HumanMessage(data)

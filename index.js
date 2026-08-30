@@ -22,6 +22,7 @@ app.post("/form", async (req, res) => {
   try {
     const result = await agent(data);
     console.log(typeof(result));
+    console.log(result);
     return res.send(result);
   } catch (err) {
     console.log(err);
