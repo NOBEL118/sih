@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/form", async (req, res) => {
-  const data = req.body;
+  const data = req.body.msg;
   console.log(data);
   if (!data) {
     return res.status(400).send("Can't get data");
