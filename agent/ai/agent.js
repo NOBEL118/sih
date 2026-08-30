@@ -132,15 +132,44 @@ async  function agent (data) {
                     details({ id: "DGT_ELECTRICIAN" })
                     Do not invent, modify, or guess the ID.
                     If no suitable job is found, do not call details.
+
                    STEP 3 — RESPOND:
 
-                    After the details tool returns the job information, respond to the user by including ALL information returned by the details tool.
+                    FINAL RESPONSE:
 
-                    - Include every field and value returned by the details tool.
-                    - Do not omit, summarize, rename, or modify any field.
-                    - Use the exact values returned by the details tool.
-                    - Do not add or invent any information.
-                    - Always include the Job ID if it is returned.
+                    After the details tool returns the job information, respond with ONLY a clear,
+                    technical, voice-friendly message containing all available job details.
+
+                    Include every field returned by the details tool:
+
+                    Job ID
+                    Job Role
+                    Hindi Name
+                    Sector
+                    QP Code
+                    Source
+                    NSQF Level
+                    Minimum Qualification
+                    Keywords
+
+                    Do not return JSON.
+                    Do not use markdown.
+                    Do not add introductions such as "Here are the full details".
+                    Do not omit any field.
+
+                    Example format:
+
+                    Job ID: DGT_WIREMAN.
+                    Job Role: Wireman.
+                    Hindi Name: वायरमैन.
+                    Sector: Electrical Work.
+                    QP Code: DGT_WIREMAN.
+                    Source: DGT CTS/ITI.
+                    NSQF Level: 3.
+                    Minimum Qualification: Passed 8th class examination.
+                    Keywords: wireman, वायरमैन, तार वाला.
+
+                    Return only this final message.
 
                     If the details tool returns no job information, simply say:
                     "No suitable job found."
